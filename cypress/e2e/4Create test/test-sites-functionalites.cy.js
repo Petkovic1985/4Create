@@ -24,8 +24,6 @@ context("Test sites functionalites", () => {
         cy.viewport(window.screen.width, window.screen.height);
     })
 
-
-
     it("Added products to cart flow",()=>{
         var _product = products[x];
         var _product1 = products1[x];
@@ -128,15 +126,12 @@ context("Test sites functionalites", () => {
         })
         })    
 
-
     it("open browser and go to link", function () {
-        
         cy.visit(WEB_DRIVER_UNIVERSITY2)
         cy.contains("CONTACT US")
-        
-     
+    
         })
-    })
+        })
 
  
 
