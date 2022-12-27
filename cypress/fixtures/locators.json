@@ -1,0 +1,10 @@
+{
+    "products" : {
+    "productNo1" : ".cart-items>:nth-child(1)",
+    "productNo2" : ".cart-items>:nth-child(2)",
+    "productNo3" : ".cart-items>:nth-child(3)",
+    "productNo4" : ".cart-items>:nth-child(4)"
+   
+
+}
+}
